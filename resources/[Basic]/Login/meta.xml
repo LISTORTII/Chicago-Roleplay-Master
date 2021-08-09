@@ -1,0 +1,24 @@
+<meta>
+    <info author="_thomp" name="" type="script" version="1.0" autostart="true"/>
+    <oop>true</oop>
+
+    <script src="tablas.lua" type="shared" cache="false"/>
+    <script src="cameras.lua" type="client" cache="false"/>
+    <script src="AnimsC.lua" type="client" cache="false"/>
+    <script src="cliente.lua" type="client" cache="false"/>
+    <script src="servidor.lua" type="server"/>
+    <script src="guardarDatos.lua" type="server"/>
+	
+	<script src="testRoleplay.lua" type="client" cache="false"/>
+	<script src="testRoleplay_server.lua" type="server"/>
+
+	<file src='files/PantonDemo-Light.otf'/>
+    <file src="files/logo.png" />
+    <file src="files/mujer.png" />
+    <file src="files/macho.png" />
+    <file src="files/music.mp3" />
+
+    
+
+	<export function="getPlayerByID" type="server"/>
+</meta>
