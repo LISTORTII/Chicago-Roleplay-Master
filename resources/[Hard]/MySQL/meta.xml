@@ -1,0 +1,59 @@
+
+
+<meta>
+
+<info version="1.0" type="script" description="MySQL" name="MySQL Roleplay" author="Master"/>
+
+<script type="server" src="exports.lua"/>
+
+<script type="shared" src="Exp_code.lua" cache="false"/>
+
+<export type="server" function="query"/>
+
+<export type="server" function="insert"/>
+
+<export type="server" function="update"/>
+
+<export type="server" function="delete"/>
+
+<export type="server" function="AccountName"/>
+
+<export type="server" function="notIsGuest"/>
+
+<export type="server" function="isPlayerInACL"/>
+
+<export type="server" function="isPlayerInTeam"/>
+
+<export type="server" function="isPlayerStaff"/>
+
+<export type="server" function="getACLFromPlayer"/>
+
+<export type="shared" function="isVehicleEmpty"/>
+
+<export type="shared" function="getPlayerNearbyVehicle"/>
+
+<export type="server" function="getPlayerFaction"/>
+
+<export type="server" function="getPlayerLeader"/>
+
+<export type="server" function="getPlayerLeaderDivision"/>
+
+<export type="server" function="getPlayerDivision"/>
+
+<export type="server" function="inPlayerVehiclePolice"/>
+
+<export type="shared" function="_getPlayerNameR"/>
+
+<export type="shared" function="convertNumber"/>
+
+<export type="client" function="getMapFromWorldPosition"/>
+
+<export type="server" function="inPlayerVehiclePolice"/>
+
+<export type="server" function="MensajeRol"/>
+
+<export function="getMyCode"/>
+
+<oop>true</oop>
+
+</meta>

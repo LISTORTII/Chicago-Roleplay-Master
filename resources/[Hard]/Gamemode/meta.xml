@@ -1,0 +1,104 @@
+<meta>
+	<info author="Phoenix" name="Gamemode" type="script" gamemodes="Roleplay" version="1.0" autostart="true"/>
+	
+	<script src="hud/hud.lua" type="client" cache="false"/>
+
+	<script src="gamemode.lua" type="server" cache="false"/>
+
+	<script src="save.lua" type="server" cache="false"/>
+
+	<script src="comandos.lua" type="server" cache="false"/>
+	
+		<!--Chats-->
+
+	<script src="chats/anti_ip.lua" type="server"/>
+
+	<script src="chats/chat_principal.lua" type="server"/>
+
+	<script src="chats/chat_administrativo.lua" type="server"/>
+
+	<script src="chats/chat_do.lua" type="server"/>
+
+	<script src="chats/chat_ooc.lua" type="server"/>
+
+	<script src="chats/chat_grito.lua" type="server"/>
+
+	<script src="chats/describir_personaje.lua" type="server"/>
+
+	<script src="dni.lua" type="server"/>
+
+	<script src="peds_and_yo/peds_cliente.lua" type="client" cache="false"/>
+
+	<script src="peds_and_yo/pickups_info.lua" type="client" cache="false"/>
+
+	<script src="sacar_identificacion.lua" type="server"/>
+
+	<script src="darlicencia.lua" type="server"/>
+
+	<script src="anims_server.lua" type="server"/>
+
+	<export function="getFromName" type="server"/>
+	
+	<export function="addHudPlayer" type="server"/>
+	
+	<oop>true</oop>
+
+	<file src="hud/Certege.ttf" />
+
+	<file src="img/inchat.png" />
+	<file src="img/star1.png" />
+	<file src="img/star2.png" />
+	<file src="img/+.png" />
+	<file src="img/bar.png" />
+
+	<file src="img/0.png" />
+	<file src="img/1.png" />
+	<file src="img/16.png" />
+	<file src="img/4.png" />
+	<file src="img/5.png" />
+	<file src="img/9.png" />
+	<file src="img/22.png" />
+	<file src="img/23.png" />
+	<file src="img/24.png" />
+	<file src="img/25.png" />
+	<file src="img/26.png" />
+	<file src="img/27.png" />
+	<file src="img/28.png" />
+	<file src="img/29.png" />
+	<file src="img/30.png" />
+	<file src="img/31.png" />
+	<file src="img/32.png" />
+	<file src="img/33.png" />
+	<file src="img/34.png" />
+	<file src="img/35.png" />
+	<file src="img/36.png" />
+	<file src="img/37.png" />
+	<file src="img/38.png" />
+	<file src="img/39.png" />
+	<file src="img/40.png" />
+	<file src="img/41.png" />
+	<file src="img/42.png" />
+	<file src="img/43.png" />
+	<file src="img/44.png" />
+	<file src="img/45.png" />
+	<file src="img/46.png" />
+	<file src="img/2.png" />
+	<file src="img/3.png" />
+	<file src="img/6.png" />
+	<file src="img/7.png" />
+	<file src="img/8.png" />
+	<file src="img/10.png" />
+	<file src="img/11.png" />
+	<file src="img/12.png" />
+	<file src="img/14.png" />
+	<file src="img/15.png" />
+	<file src="img/17.png" />
+	<file src="img/18.png" />
+	
+
+
+
+
+
+	
+</meta>
