@@ -1,0 +1,8 @@
+<meta>
+	<script src="speed.lua" type="client" cache="false" autostart="true"/>
+	<file src="circle.fx" type="client" />
+	<file src="Certege.ttf" />
+	<file src="engine.png" />
+	<file src="fuel.png" />
+	<file src="arrow.png" />
+</meta>

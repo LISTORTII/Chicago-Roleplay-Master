@@ -1,0 +1,9 @@
+<meta>
+    <info author="Anubhav" type="script" name="[A-Team-Skin Shop" descriptions="Skin Shop" version="2.0.1"/>
+    <script src="clothes_c.lua" type="client"/>
+	<script src="clothes_s.lua" type="server"/>
+	
+	<export function="getBoughtSkin" type="server"/>
+	<min_mta_version server="1.3.1-9.04939.0" client="1.3.1-9.04939.0"/>
+</meta>
+
