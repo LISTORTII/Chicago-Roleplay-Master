@@ -10,18 +10,31 @@ Clawsuit y Yo, Y Thomp_ no daremos soporte de la misma, cualquiera duda solo la 
 Sistemas de la GM:
 
 Sistema de Login
+
 Sistema de Panel de Skines
+
 Sistema de PayDay
+
 Sistema de facciones con comandos
+
 Sistema de interiores
+
 Sistema de tiendas
+
 Sistema de administración
+
 Sistema de vehículos
+
 Sistema de realtime 
+
 Sistema de facción policia
+
 Sistema de Trabajos como Pizzero, Camionero, Basurero, Taxista, Pescador, Carpintero
+
 Sistema de Puntos de Rol
+
 Sistema de puertas/portones 
+
 Muchos otros sistemas...
 
 
