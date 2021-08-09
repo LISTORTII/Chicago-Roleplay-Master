@@ -1,0 +1,123 @@
+function loadHandling(v)		
+			 if getElementModel(v) == 598 then
+				setVehicleHandling(v, "mass", 2000)
+				setVehicleHandling(v, "turnMass", 3500)
+				setVehicleHandling(v, "dragCoeff", 1.8)
+				setVehicleHandling(v, "centerOfMass", { 0, 0.15, -0.3 } )
+				setVehicleHandling(v, "percentSubmerged", 75)
+				setVehicleHandling(v, "tractionMultiplier", 0.9)
+				setVehicleHandling(v, "tractioznLoss", 1.0)
+				setVehicleHandling(v, "tractionBias", 0.497)
+				setVehicleHandling(v, "numberOfGears", 5)
+				setVehicleHandling(v, "maxVelocity", 299)
+				setVehicleHandling(v, "engineAcceleration", 75)
+				setVehicleHandling(v, "engineInertia", 120)
+				setVehicleHandling(v, "driveType", "fwd")
+				setVehicleHandling(v, "engineType", "petrol")
+				setVehicleHandling(v, "brakeDeceleration", 40)
+				setVehicleHandling(v, "ABS", true)
+				setVehicleHandling(v, "steeringLock", 35)
+				setVehicleHandling(v, "suspensionForceLevel", 0.8)
+				setVehicleHandling(v, "suspensionDamping", 0.5)
+				setVehicleHandling(v, "suspensionHighSpeedDamping", 0.1)
+				setVehicleHandling(v, "suspensionUpperLimit", 0.3)
+				setVehicleHandling(v, "suspensionLowerLimit", -0.15)
+				setVehicleHandling(v, "suspensionFrontRearBias", 0.55)
+				setVehicleHandling(v, "suspensionAntiDiveMultiplier", 0.5)
+				setVehicleHandling(v, "seatOffsetDistance", 0.2)
+				setVehicleHandling(v, "collisionDamageMultiplier", 0.60)
+				setVehicleHandling(v, "monetary", 25000)
+				setVehicleHandling(v, "modelFlags", 0x40000001)
+				setVehicleHandling(v, "handlingFlags", 0x10308803)
+				setVehicleHandling(v, "headLight", 0)
+				setVehicleHandling(v, "tailLight", 1)
+				setVehicleHandling(v, "animGroup", 0)
+			 end	
+
+			if getElementModel(v) == 597 then
+				setVehicleHandling(v, "mass", 2000)
+				setVehicleHandling(v, "turnMass", 3500)
+				setVehicleHandling(v, "dragCoeff", 1)
+				setVehicleHandling(v, "centerOfMass", { 0, 0.15, -0.3 } )
+				setVehicleHandling(v, "percentSubmerged", 75)
+				setVehicleHandling(v, "tractionMultiplier", 0.85)
+				setVehicleHandling(v, "tractionLoss", 0.7)
+				setVehicleHandling(v, "tractionBias", 0.51)
+				setVehicleHandling(v, "numberOfGears", 5)
+				setVehicleHandling(v, "maxVelocity", 300)
+				setVehicleHandling(v, "engineAcceleration", 40)
+				setVehicleHandling(v, "engineInertia", 50)
+				setVehicleHandling(v, "driveType", "awd")
+				setVehicleHandling(v, "engineType", "petrol")
+				setVehicleHandling(v, "brakeDeceleration", 150)
+				setVehicleHandling(v, "ABS", true)
+				setVehicleHandling(v, "collisionDamageMultiplier", 0.2)
+			end	
+			
+			
+			 if getElementModel(v) == 490 then
+				setVehicleHandling(v, "mass", 2000)
+				setVehicleHandling(v, "turnMass", 3500)
+				setVehicleHandling(v, "dragCoeff", 1.8)
+				setVehicleHandling(v, "centerOfMass", { 0, 0.15, -0.3 } )
+				setVehicleHandling(v, "percentSubmerged", 75)
+				setVehicleHandling(v, "tractionMultiplier", 0.9)
+				setVehicleHandling(v, "tractioznLoss", 1.0)
+				setVehicleHandling(v, "tractionBias", 0.497)
+				setVehicleHandling(v, "numberOfGears", 5)
+				setVehicleHandling(v, "maxVelocity", 299)
+				setVehicleHandling(v, "engineAcceleration", 75)
+				setVehicleHandling(v, "engineInertia", 50)
+				setVehicleHandling(v, "driveType", "fwd")
+				setVehicleHandling(v, "engineType", "petrol")
+				setVehicleHandling(v, "brakeDeceleration", 40)
+				setVehicleHandling(v, "ABS", true)
+				setVehicleHandling(v, "steeringLock", 35)
+				setVehicleHandling(v, "suspensionForceLevel", 0.8)
+				setVehicleHandling(v, "suspensionDamping", 0.5)
+				setVehicleHandling(v, "suspensionHighSpeedDamping", 0.1)
+				setVehicleHandling(v, "suspensionUpperLimit", 0.3)
+				setVehicleHandling(v, "suspensionLowerLimit", -0.15)
+				setVehicleHandling(v, "suspensionFrontRearBias", 0.55)
+				setVehicleHandling(v, "suspensionAntiDiveMultiplier", 0.5)
+				setVehicleHandling(v, "seatOffsetDistance", 0.2)
+				setVehicleHandling(v, "collisionDamageMultiplier", 0.60)
+				setVehicleHandling(v, "monetary", 25000)
+				setVehicleHandling(v, "modelFlags", 0x40000001)
+				setVehicleHandling(v, "handlingFlags", 0x10308803)
+				setVehicleHandling(v, "headLight", 0)
+				setVehicleHandling(v, "tailLight", 1)
+				setVehicleHandling(v, "animGroup", 0)
+			 end	
+
+
+			if getElementModel(v) == 523 then
+				setVehicleHandling(v, "maxVelocity", 150)
+				setVehicleHandling(v, "engineAcceleration", 35.0)
+				setVehicleHandling(v, "engineInertia", 5.0)
+				setVehicleHandling(v, "engineType", "petrol")
+				setVehicleHandling(v, "driveType", "rwd")
+				setVehicleHandling(v, "steeringLock", 35.0)
+				setVehicleHandling(v, "tractionMultiplier", 1.8)
+                setVehicleHandling(v, "tractionLoss", 1.15)
+                setVehicleHandling(v, "tractionBias", 0.5)
+				setVehicleHandling(v, "brakeDeceleration", 25.0)
+				setVehicleHandling(v, "centerOfMass", { 0.0, 0.0, -0.09})
+				setVehicleHandling(v, "dragCoeff",0.0)
+			 end				
+
+			 
+
+end
+
+function loadHandlings()
+	for k, v in ipairs(getElementsByType("vehicle")) do
+		loadHandling(v)
+	end
+end
+addEventHandler("onResourceStart", getResourceRootElement(getThisResource()), loadHandlings)
+
+function vehicleEnter()
+	loadHandling(source)
+end
+addEventHandler("onVehicleEnter", getRootElement(), vehicleEnter)

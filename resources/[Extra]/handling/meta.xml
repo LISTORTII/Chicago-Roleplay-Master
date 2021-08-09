@@ -1,0 +1,4 @@
+<meta>
+    <script src="ZeedS.lua" type="server" autostart="true"/>
+    <export function="loadHandling" type="server" />
+</meta>
