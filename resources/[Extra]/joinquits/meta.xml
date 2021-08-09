@@ -1,0 +1,10 @@
+<meta>
+    <script src="chat.lua" type="client" />
+	<script src="server.lua" type="server" />
+	<file src="join.png" type="client" />
+	<file src="login.png" type="client" />
+	^<file src="mute.png" type="client" />
+	<file src="nickchange.png" type="client" />
+	<file src="quit.png" type="client" />
+    <info type="script" name="Join Quit" author="Sable Cortado" autostart="true" version="1.0.0" ></info>
+</meta>
