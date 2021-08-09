@@ -1,0 +1,4 @@
+<meta>
+    <info author="CASTIEL" name="Car Blow Fix" version="1.0.1" type="misc"/>
+	<script src="carblowfix.lua" type="client"/>
+</meta>

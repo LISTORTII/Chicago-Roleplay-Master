@@ -1,0 +1,5 @@
+<meta>
+    <info author="Zeus'" type="script" name=".s" description="Para RPA UWU" version="1.0"/>
+    <script src="musiclocated.lua" type="client"/>
+    <file src="desusound.mp3"/>
+</meta>
