@@ -64,4 +64,4 @@ Zeus como dueño del servidor y desarrollador. (https://forum.mtasa.com/profile/
 Actualmente se llama Vest Roleplay débido a que fué mi último proyecto.
 
 Hemos decidimos públicar la Gamemode debido al robo de la misma; nadie más estara autorizado ni es dueño de dicha gamemode.
-Post en dónde  comentare dando información: https://forum.mtasa.com/topic/131823-gm-countryside-roleplay-de-0/
+Post en dónde  comentare dando información: https://forum.mtasa.com/topic/132057-gm-chicago-roleplay/
